@@ -4,4 +4,4 @@ RUN apt-get clean
 WORKDIR /app
 COPY target/*.war /app/app.war
 EXPOSE 8079
-CMD ["java", "-jar", "target/app/app.war"]
+CMD ["java", "-jar", "target/Demy-0.0.1-SNAPSHOT.war"]
